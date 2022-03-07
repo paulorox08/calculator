@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #EAEBED;
+}
+
+#calcContainer {
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5%;
+    width: 345px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: #343434;
+}
+
+button {
+    width: 75px;
+    height: 60px;
+    font-size: 24px;
+    background-color: #B9BABA;
+    border: solid black;
+    border-radius: 5px;
+    transition-duration: 250ms;
+}
+
+button:hover {
+    width: 75px;
+    height: 60px;
+    font-size: 24px;
+    background-color: black;
+    border: solid black;
+    border-radius: 5px;
+    color: #B9BABA;
+}
+
+#seven,
+#four,
+#one,
+#decimal {
+    margin-left: 5px;
+}
+
+#divide,
+#multiply,
+#add,
+#subtract {
+    margin-right: 5px;
+    background-color: #072AC8;
+    border: solid black;
+    transition-duration: 250ms;
+}
+
+#divide:hover,
+#multiply:hover,
+#add:hover,
+#subtract:hover {
+    margin-right: 5px;
+    background-color: black;
+    border: solid black;
+    color: white;
+}
+
+#screen {
+    border: 1px solid black;
+    width: 330px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 7px;
+    background-color: #B9BABA;
+}
+
+#equal {
+    background-color: #2D936C;
+}
+
+#equal:hover {
+    background-color: black;
+    color: white;
+}
+
+#memory {
+    font-size: 36px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+#current {
+    font-size: 52px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+#screenFunc {
+    display: flex;
+    gap: 17px;
+}
+
+#clear {
+    background-color: #C1292E;
+}
+
+#clear:hover {
+    background-color: black;
+    color: #C1292E;
+}
+
+#delete {
+    background-color: #E6AF2E;
+}
+
+#delete:hover {
+    background-color: black;
+    color: #E6AF2E; 
+}
+
+#clear,
+#delete
+{
+    width: 158px;
+    height: 60px;
+    border: solid black;
+    font-size: 24px;
+}
+
+#footer {
+    color: black;
+    background-color: orange;
+    position: fixed;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+}
