@@ -113,27 +113,19 @@ clearScreen()
 
 function operators() {
     add.addEventListener('click', () => {
-        memory.append(' + ')
-        disableBtns()
-        clearCurrent()
+        memory.append(' + ');
         decimal.disabled = false
     })
     multiply.addEventListener('click', () => {
-        memory.append(' × ')
-        disableBtns()
-        clearCurrent()
+        memory.append(' * ')
         decimal.disabled = false
     })
     subtract.addEventListener('click', () => {
-        memory.append(' - ')
-        disableBtns()
-        clearCurrent()
+        memory.append(' - ');
         decimal.disabled = false
     })
     divide.addEventListener('click', () => {
-        memory.append(' ÷ ')
-        disableBtns()
-        clearCurrent()
+        memory.append(' / ');
         decimal.disabled = false
     })
 }
